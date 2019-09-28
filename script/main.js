@@ -24,6 +24,7 @@ window.addEventListener("load", function(){
         
         document.getElementById(id).classList.toggle("hidden");
     }
+    
     if(DEBUG == false)
         initKonami();
     initButtons();
